@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub_Landing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #dfe8d8;
+      font-family: Arial, sans-serif;
+    }
+    .top-bar {
+      background-color: #2b3c49;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .sidebar {
+      background-color: #333;
+      border-radius: 10px;
+      height: 400px;
+    }
+    .content {
+      display: grid;
+      grid-template-rows: auto auto;
+      gap: 20px;
+    }
+    .search-bar {
+      background-color: #333;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: left;
+      font-style: italic;
+      font-smooth: ;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    .cards {
+      display: flex;
+      gap: 20px;
+    }
+    .card {
+      background-color: #333;
+      border-radius: 10px;
+      height: 100px;
+      flex: 1;
+    }
+    .footer-bar {
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    GITHUB
+  </div>
+
+  <div class="container">
+    <div class="sidebar"></div>
+    <div class="content">
+      <div class="search-bar">Search...</div>
+      <div class="cards">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </div>
+      <div class="footer-bar"></div>
+    </div>
+  </div>
+
+</body>
+</html>
